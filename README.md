@@ -1,22 +1,24 @@
-# 📘 Oil Well Reserves
-This project showcases expertise in "Machine Learning in Business" as part of TripleTen's Data Science program. It focuses on analyzing and estimating oil well reserves using advanced data analysis techniques. The primary objectives are to deliver accurate reserve predictions, support decision-making in the energy sector, and optimize resource management.
+# ⛏️ Gold Mining Project
+
+This repository demonstrates advanced "Machine Learning in Business" skills as part of TripleTen's Data Science program. The focus is on analyzing and predicting gold mine reserves using robust data science techniques. The main goals are to deliver precise reserve estimates, inform strategic decisions in mining operations, and improve resource allocation.
 
 ## 🚀 Features
-- **Data Preprocessing**: Cleaning and preparing industrial mining data for analysis.
-- **Exploratory Data Analysis (EDA)**: Identifying trends, patterns, and correlations in the data.
-- **Feature Engineering**: Customizing features to enhance mineral recovery predictions.
-- **Model Training and Evaluation**: Utilizing metrics like RMSE and cross-validation for performance assessment.
-- **Model Comparison**: Evaluating multiple regression models, including Linear Regression and Random Forest.
-- **Business Insights**: Providing actionable recommendations for risk mitigation and decision-making.
+
+- **Data Preprocessing**: Cleaning and preparing gold mining datasets for analysis.
+- **Exploratory Data Analysis (EDA)**: Discovering trends, patterns, and correlations in mining data.
+- **Feature Engineering**: Creating and refining features to boost prediction accuracy for gold recovery.
+- **Model Training and Evaluation**: Applying metrics like RMSE and cross-validation to assess model performance.
+- **Model Comparison**: Comparing regression models such as Linear Regression and Random Forest.
+- **Business Insights**: Offering actionable recommendations for risk management and operational efficiency.
 
 ## 📦 Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/Vyncent-vdW/sprint_nine_mlb.git
+git clone https://github.com/Vyncent-vdW/sprint_ten_gold_mining_project.git
 
 # Navigate into the project directory
-cd sprint_nine_mlb
+cd sprint_ten_gold_mining_project
 
 # (Optional) Create and activate a virtual environment
 python -m venv venv
@@ -27,42 +29,41 @@ pip install -r requirements.txt
 ```
 
 ## 🛠️ Usage
-Run the Jupyter Notebook to explore the full workflow:
+
+Run the Jupyter Notebook to follow the complete workflow:
 
 ```bash
-jupyter notebook sprint_9_ml_in_business.ipynb
-``` 
+jupyter notebook sprint_10_gold_mining.ipynb
+```
 
-Key sections:
+Key steps:
 
-- Load and preprocess the dataset to ensure data quality and consistency.
-- Conduct exploratory data analysis (EDA) to uncover trends, patterns, and relationships.
-- Train and compare various regression models to identify the best-performing approach.
-- Assess model performance using metrics like RMSE and cross-validation.
-- Extract actionable insights to support decision-making and optimize resource management.
+- Load and preprocess the gold mining dataset for quality and consistency.
+- Perform EDA to reveal important trends and relationships.
+- Train and compare regression models to select the best approach for reserve prediction.
+- Evaluate models using RMSE and cross-validation.
+- Extract insights to guide business decisions and optimize mining operations.
 
-## ✅ Requirements 
+## ✅ Requirements
+
 - Python 3.8+
 - pandas
 - scikit-learn
 - NumPy
 - Matplotlib / Seaborn
-- Jupyter Notebook 
+- Jupyter Notebook
 
-install them with: 
+Install them with:
 ```bash
 pip install -r requirements.txt
-``` 
+```
 
 ## 🙋 Contributing
-Feel free to fork this repo and improve it. If you’ve got enhancements (e.g., better models, new features, business insights), submit a pull request:
+
+Contributions are welcome! If you have improvements (e.g., better models, new features, business insights), please submit a pull request:
 
 1. Fork the repo
-
-2. Create a new branch: git checkout -b feature-name
-
-3. Commit your changes: git commit -m "Add improvement"
-
-4. Push to your fork: git push origin feature-name
-
-5. Submit a pull request 
+2. Create a new branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m "Add improvement"`
+4. Push to your fork: `git push origin feature-name`
+5. Submit a pull request
