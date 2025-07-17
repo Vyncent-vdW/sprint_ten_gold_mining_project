@@ -1,15 +1,36 @@
-# ⛏️ Gold Mining Project
-
-This repository demonstrates advanced "Machine Learning in Business" skills as part of TripleTen's Data Science program. The focus is on analyzing and predicting gold mine reserves using robust data science techniques. The main goals are to deliver precise reserve estimates, inform strategic decisions in mining operations, and improve resource allocation.
+# 📘 Megaline Subscriber Behavior Analysis with SQL
+This project analyzes gold mining production and operational data using SQL queries within the `sprint_ten_gold_mining_project_nb.ipynb` Jupyter Notebook. The goal is to uncover actionable insights from mining datasets, support strategic decisions, and optimize production processes.
 
 ## 🚀 Features
 
-- **Data Preprocessing**: Cleaning and preparing gold mining datasets for analysis.
-- **Exploratory Data Analysis (EDA)**: Discovering trends, patterns, and correlations in mining data.
-- **Feature Engineering**: Creating and refining features to boost prediction accuracy for gold recovery.
-- **Model Training and Evaluation**: Applying metrics like RMSE and cross-validation to assess model performance.
-- **Model Comparison**: Comparing regression models such as Linear Regression and Random Forest.
-- **Business Insights**: Offering actionable recommendations for risk management and operational efficiency.
+- **Data Extraction**: Retrieve gold mining data directly from the database using SQL.
+- **Data Cleaning**: Clean and preprocess mining data with SQL for accurate analysis.
+- **Exploratory Data Analysis (EDA)**: Discover trends, patterns, and correlations in production and operational metrics via SQL queries.
+- **Insights Generation**: Identify factors influencing yield, efficiency, and downtime to inform business strategies.
+
+## 📊 Visuals
+
+Visualizations are generated from SQL query results to interpret gold mining performance and trends. Charts and graphs are created using Python libraries (e.g., matplotlib, seaborn) in Jupyter Notebook, supporting data-driven recommendations.
+
+![Production Trends](image.png)
+
+The analysis highlights the top 10 mines with the highest production rates and examines average operational efficiency. Certain mines show significantly higher yields, prompting further investigation into local factors. Bar plots and operational metrics are visualized for clarity.
+
+Key observations include:
+- Specific mines have notably higher production rates compared to others.
+- Operational patterns vary by mine, revealing clusters with similar performance.
+
+These insights help identify areas for targeted process improvements and resource allocation.
+
+![Seasonal Impact](image-1.png)
+
+This graph tests the hypothesis that seasonal factors impact gold mining output and operational efficiency.
+
+Key findings:
+- Production rates fluctuate during certain months, correlating with seasonal trends.
+- Variability in operational metrics is higher during peak production periods.
+- The mean yield during high-output months matches the upper quartile of low-output months.
+- Outliers in operational efficiency are more frequent during seasonal peaks.
 
 ## 📦 Installation
 
@@ -19,48 +40,39 @@ git clone https://github.com/Vyncent-vdW/sprint_ten_gold_mining_project.git
 
 # Navigate into the project directory
 cd sprint_ten_gold_mining_project
-
-# (Optional) Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install required dependencies
-pip install -r requirements.txt
 ```
 
 ## 🛠️ Usage
 
-Run the Jupyter Notebook to follow the complete workflow:
+Run the Jupyter Notebook to execute the gold mining SQL analysis workflow:
 
 ```bash
-jupyter notebook sprint_10_gold_mining.ipynb
+jupyter notebook sprint_ten_gold_mining_project_nb.ipynb
 ```
 
-Key steps:
+Key steps include:
 
-- Load and preprocess the gold mining dataset for quality and consistency.
-- Perform EDA to reveal important trends and relationships.
-- Train and compare regression models to select the best approach for reserve prediction.
-- Evaluate models using RMSE and cross-validation.
-- Extract insights to guide business decisions and optimize mining operations.
+- Load the gold mining dataset into a SQL database.
+- Write and execute SQL queries to explore and analyze production and operational data.
+- Perform EDA to identify trends and relationships in mining performance.
+- Extract insights to support process optimization and strategic planning.
 
 ## ✅ Requirements
 
 - Python 3.8+
 - pandas
-- scikit-learn
-- NumPy
-- Matplotlib / Seaborn
+- SQLAlchemy
+- SQLite (or another SQL database)
 - Jupyter Notebook
 
-Install them with:
+Install dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
 
 ## 🙋 Contributing
 
-Contributions are welcome! If you have improvements (e.g., better models, new features, business insights), please submit a pull request:
+Contributions are welcome! If you have improvements (e.g., optimized queries, new insights, or additional features), please submit a pull request:
 
 1. Fork the repo
 2. Create a new branch: `git checkout -b feature-name`
